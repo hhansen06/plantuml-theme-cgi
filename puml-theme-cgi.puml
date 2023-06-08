@@ -142,9 +142,9 @@ skinparam defaultFontSize        12
 'skinparam dpi                    125
 skinparam shadowing              false
 skinparam roundcorner            0
-skinparam ParticipantPadding     30
+skinparam ParticipantPadding     20
 skinparam BoxPadding             5
-skinparam Padding                10
+skinparam Padding                5
 skinparam ArrowColor             $GRAY
 skinparam stereotype {
     CBackgroundColor $SECONDARY_LIGHT
