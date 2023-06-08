@@ -4,7 +4,7 @@
 '' Author: Bharat Rajagopalan
 '' Copyright (c) 2022 by Bharat Rajagopalan
 
-!$THEME = "carbon-gray"
+!$THEME = "cgi"
 
 !$BGCOLOR = "#ff0000"
 
