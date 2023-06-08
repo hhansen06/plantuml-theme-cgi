@@ -130,7 +130,7 @@ skinparam useBetaStyle false
 !procedure $primary_scheme()
 	FontColor $PRIMARY_TEXT
 	BorderColor $PURPLE
-	BackgroundColor $PRIMARY_LIGHT-$PRIMARY
+	BackgroundColor $LIGHTGRAY
 	RoundCorner 0
 !endprocedure
 
