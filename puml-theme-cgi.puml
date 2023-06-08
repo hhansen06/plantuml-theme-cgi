@@ -6,8 +6,6 @@
 
 !$THEME = "cgi"
 
-!$BGCOLOR = "#ff0000"
-
 !if %not(%variable_exists("$BGCOLOR"))
 !$BGCOLOR = "transparent"
 !endif
@@ -67,15 +65,14 @@ skinparam useBetaStyle false
 !$GRAY_DARK = $GRAY_100
 !$GRAY = $GRAY_30
 !$LIGHT = $GRAY_70
-!$DARK = $GRAY_90
+!$DARK = '#000000'
 
-'' *_LIGHT = tint (lighter) of the main color of 80%
-''          where TINT is calculated by clr + (255-clr) * tint_factor
-'' *_DARK = shade (darker) of the main color of 80%
-''          and SHADE is calculated by clr * (1 - shade_factor)
-''
+!$CGIRED = '#E31937'
+!$CGIPURPLE = '#5236AB'
+
+
 !$FGCOLOR = $DARK
-!$PRIMARY = $GRAY_10
+!$PRIMARY = $CGIPURPLE
 !$PRIMARY_LIGHT = $GRAY_10 
 !$PRIMARY_DARK = $GRAY_30
 !$PRIMARY_TEXT = $DARK
