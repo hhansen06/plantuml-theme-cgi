@@ -67,8 +67,21 @@ skinparam useBetaStyle false
 !$LIGHT = $GRAY_70
 !$DARK = '#000000'
 
-!$CGIRED = '#E31937'
-!$CGIPURPLE = '#5236AB'
+!$RED = '#E31937'
+!$PURPLE = '#5236AB'
+
+!$MAGENTA = '#A82465'
+!$BURGUNDY = '#991F3D'
+!$PURPLELIGHT = '#CBC3E6'
+!$PURPLEDARK = '#200A58'
+!$LIGHTGRAY = '#E1E1E1'
+
+!$MAGENTALIGHT = '#CB7CA3'
+!$BURGUNDYLIGHT = '#D6A5B1'
+!$BURGUNDYDARK = '#650A21'
+!$PEACH = '#FFCDD2'
+!$ORANGE = '#FF6A00'
+!$ORANGELIGHT = '#FFC399'
 
 
 !$FGCOLOR = $DARK
@@ -116,7 +129,7 @@ skinparam useBetaStyle false
 
 !procedure $primary_scheme()
 	FontColor $PRIMARY_TEXT
-	BorderColor $PRIMARY_DARK
+	BorderColor $PURPLE
 	BackgroundColor $PRIMARY_LIGHT-$PRIMARY
 	RoundCorner 0
 !endprocedure
