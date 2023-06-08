@@ -6,9 +6,8 @@
 
 !$THEME = "cgi"
 
-!if %not(%variable_exists("$BGCOLOR"))
 !$BGCOLOR = "transparent"
-!endif
+!$BGCOLOR = "#ffffff"
 
 skinparam backgroundColor $BGCOLOR
 skinparam useBetaStyle false
@@ -87,7 +86,7 @@ skinparam useBetaStyle false
 !$FGCOLOR = $DARK
 !$PRIMARY = $CGIPURPLE
 !$PRIMARY_LIGHT = $GRAY_10 
-!$PRIMARY_DARK = $GRAY_30
+!$PRIMARY_DARK = $BURGUNDYDARK
 !$PRIMARY_TEXT = $DARK
 !$SECONDARY = $GRAY_10 
 !$SECONDARY_LIGHT = $GRAY_10
@@ -110,7 +109,7 @@ skinparam useBetaStyle false
 !$DANGER_DARK = $WHITE
 !$DANGER_TEXT = $DARK
 
-!$OTHER_BG = $WHITE
+!$OTHER_BG = $GRAY_10 
 !$DB_BG = $GRAY
 !$LINE_THICKNESS = 1
 !$BORDER_THICKNESS = 1
@@ -142,7 +141,7 @@ skinparam defaultFontSize        12
 'skinparam dpi                    125
 skinparam shadowing              false
 skinparam roundcorner            0
-skinparam ParticipantPadding     20
+skinparam ParticipantPadding     10
 skinparam BoxPadding             5
 skinparam Padding                5
 skinparam ArrowColor             $GRAY
@@ -217,7 +216,7 @@ skinparam actor {
 !startsub arrow
 
 skinparam arrow {
-	Thickness 2
+	Thickness 1
 	Color $DARK
 	FontColor $FGCOLOR
 }
@@ -340,7 +339,7 @@ skinparam artifact {
 
 skinparam component {
 	$primary_scheme()
-	BackgroundColor $PRIMARY
+	BackgroundColor "#00ff01"
 	BorderColor $PRIMARY_DARK
 }
 !endsub
@@ -597,7 +596,7 @@ ganttDiagram {
 		'BackGroundColor GreenYellow
 		LineColor $PRIMARY_DARK
 		'LineStyle 8.0-13.0
-		'LineThickness 3.0
+		'LineThickness 2.0
 	}
 
   milestone {
