@@ -217,8 +217,8 @@ skinparam actor {
 !startsub arrow
 
 skinparam arrow {
-	Thickness $LINE_THICKNESS
-	Color $GRAY
+	Thickness 2
+	Color $DARK
 	FontColor $FGCOLOR
 }
 !endsub
