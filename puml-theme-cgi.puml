@@ -6,7 +6,7 @@
 
 !$THEME = "carbon-gray"
 
-'!$BGCOLOR = "#ff0000"
+!$BGCOLOR = "#ff0000"
 
 !if %not(%variable_exists("$BGCOLOR"))
 !$BGCOLOR = "transparent"
