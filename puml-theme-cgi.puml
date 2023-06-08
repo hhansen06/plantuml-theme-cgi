@@ -143,7 +143,7 @@ skinparam defaultFontSize        12
 skinparam shadowing              false
 skinparam roundcorner            0
 skinparam ParticipantPadding     30
-skinparam BoxPadding             30
+skinparam BoxPadding             5
 skinparam Padding                10
 skinparam ArrowColor             $GRAY
 skinparam stereotype {
