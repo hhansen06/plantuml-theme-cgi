@@ -4,7 +4,7 @@
 '' Author: Bharat Rajagopalan
 '' Copyright (c) 2022 by Bharat Rajagopalan
 
-!$THEME = "cgi"
+!$THEME = "cgi1"
 
 !if %not(%variable_exists("$BGCOLOR"))
 !$BGCOLOR = "transparent"
